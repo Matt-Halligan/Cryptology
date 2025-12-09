@@ -4,11 +4,11 @@
 
 This assignment demonstrates core introductory cryptanalysis techniques through the implementation of three standalone Python scripts:
 
-	•	Vigenère Cipher Decryptor — recovers the plaintext of a long ciphertext using frequency analysis using the Mg score assuming a known key length.
+•	Vigenère Cipher Decryptor — recovers the plaintext of a long ciphertext using frequency analysis using the Mg score assuming a known key length.
 
-	•	Caesar Cipher Brute-Force Decryptor — performs exhaustive search of all 26 possible shifts.
+•	Caesar Cipher Brute-Force Decryptor — performs exhaustive search of all 26 possible shifts.
 
-	•	Permutation Cipher Decryptor — decrypts a block-transposition cipher using an inverse of the given permutation key.
+•	Permutation Cipher Decryptor — decrypts a block-transposition cipher using an inverse of the given permutation key.
 
 These programs emphasize classical cryptosystem weaknesses, cryptanalytic methods, and Python implementation of the techniques discussed in class.
 
@@ -33,6 +33,4 @@ These programs emphasize classical cryptosystem weaknesses, cryptanalytic method
 
 3. Permutation Cipher Decryption for Block Size m = 9
 
-- This script decrypts a permutation cipher using the permutation key
-
-π = [9, 5, 3, 2, 1, 7, 4, 6, 8]
+- This script decrypts a permutation cipher using the permutation key: π = [9, 5, 3, 2, 1, 7, 4, 6, 8]
